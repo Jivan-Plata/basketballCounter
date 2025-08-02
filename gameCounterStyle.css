@@ -11,7 +11,7 @@ body {
 }
 
 div {
-    /* border-style: solid; */
+    /*border-style: solid;*/
     border-color: green;
     border-width: 5px;
 }
@@ -30,6 +30,12 @@ div {
 
 }
 
+#home, #guest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 #homeScore, #guestScore {
     font-family: 'Cursed Timer ULiL', sans-serif;
     color: #F94F6D;
@@ -37,7 +43,10 @@ div {
     font-size: 6rem;;
     padding-top: 2rem;
     padding-bottom: 1.2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
     border-radius: 5px;
+    margin: auto;
                                                 
 }
 
@@ -45,6 +54,9 @@ div {
     color: white;
     display: flex;
     justify-content: space-evenly;
+    max-width: 18rem;
+    margin: auto;
+    gap: 1rem;
 
 
     span {
@@ -54,6 +66,7 @@ div {
         border-color: #9AABD8;
         padding: 1rem;
         font-size: 2rem;
+        margin-top: 4rem;    
     }
 
     span:hover{
